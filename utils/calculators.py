@@ -6,7 +6,7 @@ import pathlib as Path
 
 airbnb_data = read_csv()
 
-def avg(zip, bed, bath):
+def avg_price(zip, bed, bath):
     filter1_df = airbnb_data[zip]
     filter2_df = filter1_df[bed]
     filter3_df = filter2_df[bath]

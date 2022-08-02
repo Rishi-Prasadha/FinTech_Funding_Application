@@ -6,8 +6,13 @@ import pandas as pd
 
 
 from utils.calculators import (
-    avg,
+    avg_price,
     std
+)
+from utils.utils import (
+    enter_zip,
+    get_bath,
+    get_bed
 )
 
 
